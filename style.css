@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+body {
+  background-color: antiquewhite;
+}
+header{
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(240, 190, 54);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 4px solid #161473;
+}
+
+.container-img {
+  height: 20vh;
+  aspect-ratio: 3 / 3;
+  border-radius: 100%;
+  padding-top: 80px;
+}
+
+.foto-logo {
+  height: 100%;
+  aspect-ratio: 3 / 3;
+  border-radius: 100%;
+  border: 3px solid #161473;
+}
+
+.cabecalho-nav {
+  color: #161473;
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.opcao-nav {
+  border-bottom: 2px solid #4f62f4;
+  padding-bottom: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-principal {
+  padding: 15vh 10vh 10vh 5vh;
+  color: #161473;
+  font-size: 2rem;
+  
+}
+section{
+    gap:10px;
+}
+.section-um {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img-um {
+  height: 30vh;
+  aspect-ratio: 16 / 9;
+  border-radius: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px #000;
+  margin-left: 5vw;
+
+}
+.texto-um {
+  display: flex;
+  text-align:left;
+  font-size: 30px;
+  width: 60vw;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 30px 0 ;
+}
+
+.section-dois {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img-dois {
+  height: 30vh;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 16 / 9;
+  border-radius: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px #000;
+  margin-right: 5vw;
+
+}
+.texto-dois {
+  display: flex;
+  text-align:right;
+  font-size: 30px;
+  width: 60vw;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.section-tres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img-tres{
+    height: 30vh;
+    aspect-ratio: 16 / 9;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #000;
+    margin-left: 5vw;
+}
+
+.texto-tres {
+  display: flex;
+  text-align:left;
+  font-size: 30px;
+  width: 60vw;
+  flex-wrap: wrap;
+  padding: 10px;
+}
