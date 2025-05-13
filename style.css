@@ -577,6 +577,22 @@ form button:hover {
     height: 100%;
     border-radius: 50px;
   }
+  .copy {
+    font-size: 0.6rem;
+    
+  }
+  .orc-online h3{
+    justify-content: center;
+  }
+  .form-row {
+    flex-wrap: wrap;
+  }
+  .orc-online {
+    width: 50%;
+  }
+  .orc-online input{
+    width: 100%;
+  }
 }
 
 @media (max-width: 415px) {
