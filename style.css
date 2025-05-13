@@ -602,6 +602,7 @@ form button:hover {
   }
   .orc-online {
     width: 50%;
+    padding-right: 30px;
   }
   .orc-online input{
     width: 100%;
@@ -622,13 +623,19 @@ form button:hover {
   }
   .orc-online {
     width: 50%;
+
   }
   .orc-online input{
     width: 100%;
   }
   .copy {
     font-size: 0.6rem;
-    
+  }
+  .info-footer p{
+    font-size: 0.8rem;
+  }
+  .descricao-produto{
+    font-size: 0.9rem;
   }
 }
 
