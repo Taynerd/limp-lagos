@@ -311,6 +311,11 @@ footer {
 .info-footer a:hover {
   color: #161473;
 }
+section .infos{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 .copy {
   display: flex;
   font-size: 1rem;
@@ -497,7 +502,7 @@ form button:hover {
     height: 100%;
   }
 }
-@media (max-width: 590px) {
+@media (max-width: 612px) {
   .titulo-principal {
     font-size: 1.5rem;
   }
@@ -527,6 +532,14 @@ form button:hover {
     font-size: 0.7rem;
     font-weight: 100;
   }
+  .orc-online {
+    width: 60%;
+  }
+  .orc-online input {
+    flex: none;
+    width: 130px;
+  }
+
 }
 @media (max-width: 520px) {
   .info-footer {
@@ -598,7 +611,7 @@ form button:hover {
 @media (max-width: 415px) {
   .card-produto {
     width: 40vw;
-    height: 20vh;
+    height: 25vh;
     aspect-ratio: 3/4;
   }
   .orc-online h3{
