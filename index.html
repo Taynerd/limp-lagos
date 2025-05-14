@@ -53,11 +53,18 @@
 
     <section class="descricao"> 
             <p class="txt-descricao">Nos somos uma empresa com mais de 30 anos de atuação e prezamos pela confiança e satisfação dos nosso clientes.</p><p class="txt-descricao-dois">Consulte aqui seu CEP e confira nosssa disponibilidade</p>
-            <section class="consultar-cep">
-                <div class="cep"><input type="text" id="cep" placeholder="_ _-_ _ _-_ _" maxlength="8"></div>
-                <div class="btn-consulta"><input type="submit" value="Consultar"></div>
-            </section>
+            <section class="consulta-cep">
+                <form id="form-cep">
+                    <div class="cep"><label for="cep"></label><input type="text" id="cep" placeholder="00000-000" maxlength="9"></div>
+                    <div class="btn-consulta" id="btn-consulta"><input type="submit" value="Consultar"></div>
+                </form>
+            </section> 
     </section>
+    <section class="resultado" id="AbaResultado">
+        <p class="resultado-consulta" id="resultado-consulta"></p>
+    </section>
+
+
 
     <div class="titulo-produtos">
         <h1>Compre seus produtos conosco</h1>
@@ -139,7 +146,7 @@
         
             <div class="orc-online">
                 <h3>Orçamento Online</h3>
-                <form>
+                <form id="orcamento-online">
                     <div class="form-row"><label for="inome">Nome:</label><input type="text" id="inome"></div>
                     <div class="form-row"><label for="idata">Data da limpeza:</label><input type="date" id="idata"></div>
                     <div class="form-row"><label for="iquant">Funcionários</label><input type="number" id="iquant"></div>

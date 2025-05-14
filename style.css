@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   padding: 0px;
   margin: 0px;
   text-decoration: none;
-  font-family: carter one, system ui;
+  font-family: poppins, helvetica;
+
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(249, 248, 237);
   box-sizing: border-box;
 }
 
@@ -33,7 +35,7 @@ header {
   color: #161473;
 }
 .botao-cabecalho {
-  background-color: #4f62f4;
+  background-color: #161473;
   color: rgb(240, 190, 54);
   border-radius: 30px;
   padding: 12px 18px;
@@ -57,7 +59,8 @@ header {
 }
 .logo {
   font-size: 4.5rem;
-  color: #161473;
+  color: #161473;  
+  font-family: carter one, system ui;
 }
 .cabecalho-nav {
   color: #161473;
@@ -101,7 +104,7 @@ section {
   justify-content: center;
 }
 .card {
-  background-color: #4f62f4;
+  background-color: #161473;
   height: 50vh;
   width: 40vw;
   aspect-ratio: 9 / 9;
@@ -195,6 +198,7 @@ section {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: 0;
 }
 .txt-descricao {
   display: flex;
@@ -216,6 +220,28 @@ section {
 .consultar-cep {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#form-cep{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.resultado{
+    display: none;
+    background-color: #161473;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.resultado p{
+    color: rgb(240, 190, 54);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.resultado.active{
+    display: flex;
 }
 .btn-consulta input {
   background-color: rgb(240, 190, 54);
@@ -223,8 +249,10 @@ section {
   color: #161473;
   border-radius: 4px;
   cursor: pointer;
-  padding: 8px;
+  padding: 5px;
   border: 2px solid #161473;
+  text-align: center;
+  justify-self: center;
 }
 .btn-consulta input:hover {
   background-color: #161473;
@@ -245,7 +273,7 @@ section {
 }
 
 .card-produto {
-  background-color: #4f62f4;
+  background-color: #161473;
   display: flex;
   flex-direction: column;
   padding: 20px 10px;
@@ -255,6 +283,7 @@ section {
 .titulo-produtos {
   color: #161473;
   margin-bottom: 5px;
+  margin-top: 40px;
   text-align: center;
 }
 .caontainer-img {
@@ -286,7 +315,7 @@ section {
 footer {
   width: 100%;
   height: auto;
-  background-color: #4f62f4;
+  background-color: #161473;
   display: flex;
   flex-direction: column;
 }
